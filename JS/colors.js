@@ -52,3 +52,7 @@ function mainBtnStyle(mainBtn){
 
 // history button default color 
 document.getElementById('main-btn-2').style.color ='rgba(17, 17, 17, 0.7)';
+
+function getInputValue(inputIdVar){
+    return document.getElementById(inputIdVar).value;
+}
