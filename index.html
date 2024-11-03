@@ -8,26 +8,28 @@
 </head>
 <body>
     <header>
-        <nav id="nav-bar" class="flex justify-around py-6">
+        <nav id="nav-bar" class="flex flex-col gap-4 items-center justify-center py-6 sm:justify-around sm:flex-row ">
             <!-- section btn-blog  -->
-            <section>
+            <section class="order-2 sm:order-none">
                 <button id="btn-blog" class=" w-[110px] h-[49px] font-bold rounded-lg border-2">Blog</button>
             </section>
 
             <!-- name and logo for the webpage -->
-            <section class="w-1/5 flex items-center gap-3" >
+            <section class=" flex items-center order-[-1] sm:order-none gap-3 sm:w-1/5" >
                 <img src="assets/logo.png" alt="404 Not Found">
                 <h1 class="font-bold text-xl">Donate Bangladesh</h1>
             </section>
 
             <!-- balance -->
-            <section class="flex w-[135px] items-center gap-2">
+            <section class="flex order-1 sm:order-none sm:w-[135px] items-center gap-2">
                 <img src="assets/coin.png" alt="404 Coin not Found">
                 <h1 id="balance-text" class="font-bold"><span>5500</span> BDT</h1>
             </section>
         </nav>
     </header>
-    <main></main>
+    <main>
+
+    </main>
     <footer></footer>
 
     <!-- Colors Js files -->
